@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="name">Moto GP</h1>
+    <div class="number">
+        
+        <div class="buttons">
+            <button index="0" onclick="displayTab('pirmas')">Home</button>
+            <button index="1" onclick="displayTab('antras')">Season</button>
+            <button index="2" onclick="displayTab('trecias')">Calander</button>
+        </div>
+    
+        <div id="pirmas" class="tab">
+            <div class="motoPictures">
+            <img src="https://images.unsplash.com/photo-1660895707256-00bd1e3cebdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fG1vdG8lMjBncHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="ducati">
+<div class="whitMotoText">
+            <img class="whiteMoto" src="https://images.unsplash.com/photo-1670266652959-2868b469dfec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fG1vdG8lMjBncHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="moto">
+          
+            <p>MotoGP-class motorcycles are not restricted to any specific engine configuration. However, the number of cylinders employed in the engine determines the motorcycle's permitted minimum weight; the weight of the extra cylinders acts as a form of handicap. </p><br>
+            <p>This is necessary because, for a given capacity, an engine with more cylinders is capable of producing more power. If comparable bore to stroke ratios are employed, an engine with more cylinders will have a greater piston area and a shorter stroke. The increased piston area permits an increase in the total valve area, allowing more air and fuel to be drawn into the engine, and the shorter stroke permits higher revs at the same piston speed, allowing the engine to pump still more air and fuel with the potential to produce more power, but with more fuel consumption too. In 2004 motorcycles were entered with three-, four-and five-cylinder configurations. A six-cylinder engine was proposed by Blata, but it did not reach the MotoGP grids. Presently four-cylinder engines appear to offer the best compromise between weight, power, and fuel consumption as all competitors in the 2009 series used this solution in either 'V' or in-line configuration.</p>
+              <div class="form-container">
+            <h1>Leave your comment</h1>
+            <form id="add-post">
+                <div class="form-field">
+                    <label id="title" for="title">Title</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="form-field">
+                   <label id="content" for="content">Content</label>
+                <input class="content" name="content" type="text"> 
+                </div>
+                <button type="submit">Post</button>
+            </form>
+            </div>
+        </div>  </div>
+      
+            <div id="posts" class="posts"></div>
+        </div>
+        
+        <div id="antras" class="tab">
+           <img src="https://www.aprilia.com/wlassets/aprilia/master/Aprilia_World/Racing/moto-gp-2021/news/02-MotoGP_Race_Doha/MotoGP_Hero_1920x800/original/MotoGP_Hero_1920x800.jpg" alt="moto">
+            
+        </div>
+        
+        <div id="trecias" class="tab">
+            <img class="calendar" src="https://photos.motogp.com/2022/09/30/calendar-3_2.small.jpg" alt="calender">
+          
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>

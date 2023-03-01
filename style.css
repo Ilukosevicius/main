@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #485563, #29323c);
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+#pirmas {
+    border: 1px solid black;
+}
+
+.name {
+    font-size: 50px;
+    color: red;
+}
+
+.buttons {
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+width: 170px;
+height: 30px;
+background: linear-gradient(to right, #000000, #e74c3c);
+color: white;
+border-radius: 10px;
+font-size: 20px;
+margin: 0 0 0 50px;
+}
+
+.motoPictures {
+    display: flex;
+}
+
+.whiteMoto {
+    width: 100%;
+    height: 400px;
+}
+
+.whitMotoText {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right, #e53935, #e35d5b);
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+ color: white;
+    width: 100px;
+}
+
+.form-container {
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+}
+
+.content {
+    height: 40px;
+    }
+
+    .content p {
+        max-width: 100px;
+    }
+
+.form-field {
+    width: 100%;
+    display: flex;
+    margin: 5px;
+}
+
+#posts {
+    background: grey;
+    color: white;
+    display: flex;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.post {
+    border: 1px solid black;
+    background: linear-gradient(to right, #606c88, #3f4c6b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    
+    
+}
+
+.edit {
+    width: 70px;
+    background: linear-gradient(to right, #e9d362, #333333);
+    color: black;
+}
+
+.delete {
+    width: 70px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+.migtukai {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #e6dada, #274046);
+}
+
+.pCard {
+    max-width: 150px;
+}
+
+.calendar {
+    width: 100%;
+    height: 600px;
+}
